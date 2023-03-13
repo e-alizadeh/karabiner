@@ -45,28 +45,20 @@ const rules: KarabinerRules[] = [
   ...createHyperSubLayers({
     // o = "Open" applications
     o: {
-      g: app("Google Chrome"),
-      c: app("Cron"),
+      b: app("Brave"),
       v: app("Visual Studio Code"),
-      d: app("Discord"),
       s: app("Slack"),
-      e: app("Superhuman"),
       n: app("Notion"),
-      t: app("Terminal"),
+      t: app("iTerm"),
+      x: app("Obsidian"),
+      d: app("Day One"),
       // Open todo list managed via *H*ypersonic
-      h: open(
-        "notion://notion.so/stellatehq/Max-Stoiber-CEO-90ea5326add5408f967278461f37c39b#29b31b030a5a4192b05f3883f7d47fe3"
-      ),
-      z: app("zoom.us"),
-      m: app("Muse"),
-      f: app("Figma"),
-      r: app("Telegram"),
+      // h: open(
+      //   "notion://notion.so/stellatehq/Max-Stoiber-CEO-90ea5326add5408f967278461f37c39b#29b31b030a5a4192b05f3883f7d47fe3"
+      // ),
       // "i"Message
       i: app("Messages"),
       p: app("Spotify"),
-      a: app("iA Presenter"),
-      w: open("https://web.whatsapp.com"),
-      l: open("Linear"),
     },
 
     // w = "Window" via rectangle.app
